@@ -4,6 +4,14 @@ layout: default
 
 <div class="home">
 
-
+<article class="post-content">
+	<p>I've made a simple website that hosts my answers as blog posts. Hand coded with love (lol).
+		Click this link to the first question to get started!
+	</p>
+	<h1></h1>
+		{% for post in site.posts limit:1 %}
+			<h3><a href="{{post.url}}">"{{post.title}}"</a></h3>
+		{% endfor %}
+</article>
 
 </div>

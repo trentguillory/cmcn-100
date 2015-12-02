@@ -6,15 +6,15 @@
 
 
 // Our variables
-$base-font-family: Helvetica, Arial, sans-serif;
-$base-font-size:   16px;
+$base-font-family: Georgia, serif;
+$base-font-size:   24px;
 $small-font-size:  $base-font-size * 0.875;
 $base-line-height: 1.5;
 
 $spacing-unit:     30px;
 
-$text-color:       #111;
-$background-color: #fdfdfd;
+$text-color:       #333;
+$background-color: none;
 $brand-color:      #2a7ae2;
 
 $grey-color:       #828282;
@@ -27,7 +27,40 @@ $content-width:    800px;
 $on-palm:          600px;
 $on-laptop:        800px;
 
-
+html {
+background: white url('https://dl.dropboxusercontent.com/u/21768721/tumblr_static_bg2.png') repeat 0 0;
+	-webkit-animation: 40s linear 0s normal none infinite animate;
+	-moz-animation: 40s linear 0s normal none infinite animate;
+	-ms-animation: 40s linear 0s normal none infinite animate;
+	-o-animation: 40s linear 0s normal none infinite animate;
+	animation: 40s linear 0s normal none infinite animate;
+ 
+}
+ 
+@-webkit-keyframes animate {
+	from {background-position:0 0;}
+	to {background-position: 500px 0;}
+}
+ 
+@-moz-keyframes animate {
+	from {background-position:0 0;}
+	to {background-position: 500px 0;}
+}
+ 
+@-ms-keyframes animate {
+	from {background-position:0 0;}
+	to {background-position: 500px 0;}
+}
+ 
+@-o-keyframes animate {
+	from {background-position:0 0;}
+	to {background-position: 500px 0;}
+}
+ 
+@keyframes animate {
+	from {background-position:0 0;}
+	to {background-position: 500px 0;}
+}
 
 // Using media queries with like this:
 // @include media-query($on-palm) {

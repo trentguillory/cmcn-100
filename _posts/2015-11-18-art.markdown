@@ -4,6 +4,8 @@ title:  Art and Communication
 date:   2015-11-18 22:34:35
 categories: question
 ---
+**Section 4**
+
 Art is a creative medium through which someone can communicate their views on any topic, much like any other medium. Any method of presenting information visually can be considered art. Whether it’s reading a web page or sharing a photo with a friend, the message we convey is encased in artistic media. For the website, it’s a professional design and typography that carries the message. In the case of a simple photo, we’re expressing ourselves through artistically capturing an experience. When we share it with someone, it means something very specific to each person who sees it.
 
 On the topic of photos, this is me while working on this website. It conveys the message "Exhaustion". 
